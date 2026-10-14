@@ -2,13 +2,14 @@
 using namespace std;
 
 int main(){
-    int n =5;
+    int n = 12;
     int sum=0;
-    int i=1;
-     while(i<=n){
-       sum=sum+i;
-      i++; }
-       cout<<sum;
+     for(int i = 1 ; i<=n;i++){
+         if(i%3==0){
+             sum=sum+i
+                 }
+     }
+    cout<<sum;
       
       
 
